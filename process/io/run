@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+read x
+echo $x
+echo "output"
+>&2 echo "error"
